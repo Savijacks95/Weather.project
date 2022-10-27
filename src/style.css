@@ -1,0 +1,109 @@
+.btn {
+  font-size: 14px;
+  position: relative;
+  top: 20px;
+  font-family: "Mitr", sans-serif;
+  font-weight: 300;
+  border: 0.5px solid #c1c9ce;
+}
+.cali-cities {
+  position: relative;
+  top: 29px;
+  left: 30px;
+  font-size: 14px;
+  font-family: "Mitr", sans-serif;
+  font-weight: 400;
+}
+.city {
+  position: relative;
+  top: 20px;
+  font-family: "Mitr", sans-serif;
+}
+.temp {
+  font-size: 50px;
+}
+.card-city {
+  font-size: 20px;
+  font-weight: 300;
+}
+.farenheight {
+  position: relative;
+  top: -80px;
+  left: 79px;
+  font-weight: 300;
+  font-size: 30px;
+}
+.card-one {
+  font-family: "Mitr", sans-serif;
+  position: fixed;
+  top: 135px;
+  left: 52px;
+}
+.date-time {
+  font-weight: 300;
+  font-size: larger;
+  position: relative;
+  top: -25px;
+}
+.weather-condition {
+  font-weight: 100;
+  position: relative;
+  top: -28px;
+}
+.emoji {
+  font-size: 50px;
+  text-align: left;
+  position: relative;
+  top: 10px;
+}
+.high {
+  text-align: right;
+  position: relative;
+  top: -70px;
+  right: 18px;
+  font-size: 25px;
+  font-weight: 500;
+}
+.low {
+  text-align: right;
+  position: relative;
+  top: -70px;
+  right: 20px;
+  font-size: 23px;
+  font-weight: 200;
+}
+.day-sun {
+  position: relative;
+  top: 500px;
+  left: 20px;
+}
+.day-mon {
+  position: relative;
+  top: 340px;
+  left: 240px;
+}
+.day-tues {
+  position: relative;
+  top: 180px;
+  left: 447px;
+}
+.day-weds {
+  position: relative;
+  bottom: 190px;
+  left: 215px;
+}
+.day-thurs {
+  position: relative;
+  bottom: 190px;
+  left: 215px;
+}
+.day-fri {
+  position: relative;
+  bottom: 190px;
+  left: 215px;
+}
+.day-sat {
+  position: relative;
+  bottom: 190px;
+  left: 250px;
+}

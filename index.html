@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link href="src/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+<link
+href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+rel="stylesheet"
+integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+crossorigin="anonymous"
+/>
+<script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <form id="search-form">
+        <div class="row">
+          <div class="col-3 city">
+            <input
+              type="text"
+              class="form-control bg-transparent"
+              id="city"
+              placeholder="Search City"
+              autofocus="on"
+            />
+          </div>
+          <button type="submit" class="col-1 bg-transparent btn">Search</button>
+      </form>
+        <a href="#" class="col-2 cali-cities" id="SanFran">San Francisco</a>
+        <a href="#" class="col-2 cali-cities" id="SanDiego">San Diego</a>
+        <a href="#" class="col-2 cali-cities" id="LosAngeles">Los Angeles</a>
+        <a href="#" class="col-2 cali-cities" id="Sacramento">Sacramento</a>
+      </div></div>
+      <div class="card bg-transparent card-one" style="width: 13rem; height: 16rem;">
+  <div class="card-body">
+    <div class="card-city">San Jose</div>
+    <br>
+    <p class="temp">81°</p> 
+    <a href="#" class="celsiusTemperature">C°</a>
+    <a href="#" class="fahrenheight">F°</a>
+    <p class="date">Sunday, 12</p>
+    <p class="weather-condition">Partly Cloudy</p>
+  </div>
+</div>
+<div class="card bg-transparent day-sun" style="width: 10rem; height: 10rem;>
+  <div class="card-body">
+    <h6 class="card-day text-center" id="day">Sunday</h6>
+    <p class="emoji">🌥</p>
+    <div class="high" id="celsius">32</div>
+    <div class="low" id="celsius-one">20</div>
+    </div>
+    <div class="card bg-transparent day-mon" style="width: 10rem; height: 10rem;>
+  <div class="card-body">
+    <h6 class="card-day text-center" id="day-one">Monday</h6>
+    <p class="emoji">🌥</p>
+    <div class="high" id="celsius-two">32</div>
+    <div class="low" id="celsius-three">16</div>
+    </div>
+    <div class="card bg-transparent day-tues" style="width: 10rem; height: 10rem;>
+  <div class="card-body">
+    <h6 class="card-day text-center" id="day-two">Tuesday</h6>
+    <p class="emoji">☀</p>
+    <div class="high" id="celsius-four">30</div>
+    <div class="low" id="celsius-five">13</div>
+    <div class="card bg-transparent day-weds" style="width: 10rem; height: 10rem;>
+  <div class="card-body">
+    <h6 class="card-day text-center" id="day-three">Wednesday</h6>
+    <p class="emoji">🌥</p>
+    <div class="high" id="celsius-six">26</div>
+    <div class="low" id="celsius-seven">13</div>
+    <div class="card bg-transparent day-thurs" style="width: 10rem; height: 10rem;>
+  <div class="card-body">
+    <h6 class="card-day text-center" id="day-four">Thursday</h6>
+    <p class="emoji">☀</p>
+    <div class="high" id="celsius-eight">27</div>
+    <div class="low" id="celsius-nine">14</div>
+    <div class="card bg-transparent day-fri" style="width: 10rem; height: 10rem;>
+  <div class="card-body">
+    <h6 class="card-day text-center" id="day-five">Friday</h6>
+    <p class="emoji">🌥</p>
+    <div class="high" id="celsius-ten">28</div>
+    <div class="low" id="celsius-eleven">14</div>
+    <div class="card bg-transparent day-sat" style="width: 10rem; height: 10rem;>
+  <div class="card-body">
+    <h6 class="card-day text-center" id="day-six">Saturday</h6>
+    <p class="emoji">🌥</p>
+    <div class="high" id="celsius-twelve">28</div>
+    <div class="low" id="celsius-thirteen">15</div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
