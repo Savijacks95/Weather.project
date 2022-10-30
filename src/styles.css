@@ -107,3 +107,8 @@
   bottom: 190px;
   left: 250px;
 }
+.source {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
