@@ -38,6 +38,7 @@
   position: fixed;
   top: 135px;
   left: 52px;
+  text-transform: capitalize;
 }
 .date-time {
   font-weight: 300;
