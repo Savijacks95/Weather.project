@@ -23,8 +23,11 @@
   font-size: 50px;
 }
 .card-city {
-  font-size: 20px;
-  font-weight: 300;
+  font-size: 38px;
+  font-weight: 400;
+  position: relative;
+  top: -200px;
+  left: 45px;
 }
 .farenheight {
   position: relative;
@@ -36,8 +39,8 @@
 .card-one {
   font-family: "Mitr", sans-serif;
   position: fixed;
-  top: 135px;
-  left: 52px;
+  top: 20px;
+  left: 180px;
   text-transform: capitalize;
   line-height: 33px;
 }
