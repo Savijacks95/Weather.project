@@ -6,7 +6,7 @@
   font-weight: 300;
   border: 0.5px solid #c1c9ce;
 }
-.cali-cities {
+.col-2 {
   position: relative;
   top: 29px;
   left: 30px;
@@ -36,7 +36,7 @@
 .fahrenheight {
   position: relative;
   top: -273px;
-  left: 302px;
+  left: 307px;
   font-weight: 200;
   font-size: 37px;
   text-decoration: none;
@@ -45,7 +45,7 @@
 .celsius {
   position: relative;
   top: -240px;
-  left: 242px;
+  left: 247px;
   font-weight: 200;
   font-size: 37px;
   text-decoration: none;

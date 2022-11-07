@@ -36,11 +36,11 @@ function Francisco() {
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${37.7749}&lon=${-122.4194}&units=imperial&appid=${apiKey}`;
   axios.get(`${apiUrl}&appid=${apiKey}`).then(showTemperature);
 }
-let sandiego = document.querySelector("#SanDiego");
-sandiego.addEventListener("click", Diego);
+let newyork = document.querySelector("#NewYork");
+newyork.addEventListener("click", Diego);
 function Diego() {
   let apiKey = `616b14cbd38253313b3b8852fa77335d`;
-  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${32.715736}&lon=${-117.161087}&units=imperial&appid=${apiKey}`;
+  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${40.7128}&lon=${-74.006}&units=imperial&appid=${apiKey}`;
   axios.get(`${apiUrl}&appid=${apiKey}`).then(showTemperature);
 }
 let losangeles = document.querySelector("#LosAngeles");
@@ -50,11 +50,11 @@ function Angeles() {
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${34.0522}&lon=${-118.2437}&units=imperial&appid=${apiKey}`;
   axios.get(`${apiUrl}&appid=${apiKey}`).then(showTemperature);
 }
-let sacramento = document.querySelector("#Sacramento");
-sacramento.addEventListener("click", Capital);
+let dallas = document.querySelector("#Dallas");
+dallas.addEventListener("click", Capital);
 function Capital() {
   let apiKey = `616b14cbd38253313b3b8852fa77335d`;
-  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${38.5816}&lon=${-121.4944}&units=imperial&appid=${apiKey}`;
+  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${32.779167}&lon=${-96.808891}&units=imperial&appid=${apiKey}`;
   axios.get(`${apiUrl}&appid=${apiKey}`).then(showTemperature);
 }
 
