@@ -63,14 +63,14 @@
   font-weight: 300;
   font-size: 35px;
   position: relative;
-  top: -190px;
+  top: -185px;
   left: 30px;
 }
 .weather-condition {
   font-weight: 100;
   font-size: 30px;
   position: relative;
-  top: -190px;
+  top: -180px;
   left: 30px;
 }
 small {
@@ -79,4 +79,10 @@ small {
   text-decoration: none;
   position: relative;
   bottom: -675px;
+}
+#weather-description {
+  position: relative;
+  top: -289px;
+  left: 295px;
+  font-weight: 100;
 }
