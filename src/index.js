@@ -8,7 +8,7 @@ function cityInput(event) {
 }
 function cityTemperature(city) {
   let apiKey = `616b14cbd38253313b3b8852fa77335d`;
-  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=${apiKey}`;
+  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`;
   axios.get(apiUrl).then(showTemperature);
 }
 navigator.geolocation.getCurrentPosition(showPosition);
@@ -17,7 +17,7 @@ function showPosition(position) {
   let apiKey = `616b14cbd38253313b3b8852fa77335d`;
   let lat = position.coords.latitude;
   let lon = position.coords.longitude;
-  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=imperial&appid=${apiKey}`;
+  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=metric&appid=${apiKey}`;
   axios.get(`${apiUrl}&appid=${apiKey}`).then(showTemperature);
 }
 
@@ -32,33 +32,35 @@ function showTemperature(response) {
   humidity.innerHTML = response.data.main.humidity;
   let wind = document.querySelector(".wind");
   wind.innerHTML = Math.round(response.data.wind.speed);
+
+  celsiusTemp = response.data.main.temp;
 }
 let sanfran = document.querySelector("#SanFran");
 sanfran.addEventListener("click", Francisco);
 function Francisco() {
   let apiKey = `616b14cbd38253313b3b8852fa77335d`;
-  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${37.7749}&lon=${-122.4194}&units=imperial&appid=${apiKey}`;
+  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${37.7749}&lon=${-122.4194}&units=metric&appid=${apiKey}`;
   axios.get(`${apiUrl}&appid=${apiKey}`).then(showTemperature);
 }
 let newyork = document.querySelector("#NewYork");
 newyork.addEventListener("click", Diego);
 function Diego() {
   let apiKey = `616b14cbd38253313b3b8852fa77335d`;
-  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${40.7128}&lon=${-74.006}&units=imperial&appid=${apiKey}`;
+  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${40.7128}&lon=${-74.006}&units=metric&appid=${apiKey}`;
   axios.get(`${apiUrl}&appid=${apiKey}`).then(showTemperature);
 }
 let losangeles = document.querySelector("#LosAngeles");
 losangeles.addEventListener("click", Angeles);
 function Angeles() {
   let apiKey = `616b14cbd38253313b3b8852fa77335d`;
-  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${34.0522}&lon=${-118.2437}&units=imperial&appid=${apiKey}`;
+  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${34.0522}&lon=${-118.2437}&units=metric&appid=${apiKey}`;
   axios.get(`${apiUrl}&appid=${apiKey}`).then(showTemperature);
 }
 let dallas = document.querySelector("#Dallas");
 dallas.addEventListener("click", Capital);
 function Capital() {
   let apiKey = `616b14cbd38253313b3b8852fa77335d`;
-  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${32.779167}&lon=${-96.808891}&units=imperial&appid=${apiKey}`;
+  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${32.779167}&lon=${-96.808891}&units=metric&appid=${apiKey}`;
   axios.get(`${apiUrl}&appid=${apiKey}`).then(showTemperature);
 }
 
@@ -102,3 +104,12 @@ function weekdays() {
   let day = days[now.getDay()];
   return day;
 }
+let fahrenheight = document.querySelector(".fahrenheight");
+fahrenheight.addEventListener("click", showFahrenheight);
+function showFahrenheight(event) {
+  event.preventDefault();
+  let fahrenheightTemp = (celsiusTemp * 9) / 5 + 32;
+  let tempElement = document.querySelector(".temp");
+  tempElement.innerHTML = Math.round(fahrenheightTemp);
+}
+let celsiusTemp = null;
