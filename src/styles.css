@@ -13,6 +13,7 @@
   font-size: 14px;
   font-family: "Mitr", sans-serif;
   font-weight: 400;
+  text-decoration: none;
 }
 .city {
   position: relative;
@@ -20,7 +21,10 @@
   font-family: "Mitr", sans-serif;
 }
 .temp {
-  font-size: 50px;
+  font-size: 100px;
+  position: relative;
+  top: -170px;
+  left: 75px;
 }
 .card-city {
   font-size: 38px;
