@@ -28,6 +28,10 @@ function showTemperature(response) {
   temp.innerHTML = `${Math.round(response.data.main.temp)}°`;
   let condition = document.querySelector(".weather-condition");
   condition.innerHTML = response.data.weather[0].main;
+  let humidity = document.querySelector(".humidity");
+  humidity.innerHTML = response.data.main.humidity;
+  let wind = document.querySelector(".wind");
+  wind.innerHTML = Math.round(response.data.wind.speed);
 }
 let sanfran = document.querySelector("#SanFran");
 sanfran.addEventListener("click", Francisco);
