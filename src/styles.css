@@ -33,12 +33,23 @@
   top: -200px;
   left: 45px;
 }
-.farenheight {
+.fahrenheight {
   position: relative;
-  top: -80px;
-  left: 79px;
-  font-weight: 300;
-  font-size: 30px;
+  top: -273px;
+  left: 302px;
+  font-weight: 200;
+  font-size: 37px;
+  text-decoration: none;
+  color: black;
+}
+.celsius {
+  position: relative;
+  top: -240px;
+  left: 242px;
+  font-weight: 200;
+  font-size: 37px;
+  text-decoration: none;
+  color: black;
 }
 .card-one {
   font-family: "Mitr", sans-serif;
@@ -48,16 +59,19 @@
   text-transform: capitalize;
   line-height: 33px;
 }
-.date-time {
+.date {
   font-weight: 300;
-  font-size: larger;
+  font-size: 35px;
   position: relative;
-  top: -25px;
+  top: -190px;
+  left: 30px;
 }
 .weather-condition {
   font-weight: 100;
+  font-size: 30px;
   position: relative;
-  top: -28px;
+  top: -190px;
+  left: 30px;
 }
 small {
   display: block;
