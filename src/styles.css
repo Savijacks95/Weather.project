@@ -23,20 +23,21 @@
 .temp {
   font-size: 100px;
   position: relative;
-  top: -170px;
+  top: -30px;
   left: 75px;
+  font-weight: 200;
 }
 .card-city {
   font-size: 38px;
   font-weight: 400;
   position: relative;
-  top: -200px;
+  top: -75px;
   left: 45px;
 }
 .fahrenheit {
   position: relative;
-  top: -273px;
-  left: 307px;
+  top: -131px;
+  left: 320px;
   font-weight: 200;
   font-size: 37px;
   text-decoration: none;
@@ -44,8 +45,8 @@
 }
 .celsius {
   position: relative;
-  top: -239px;
-  left: 247px;
+  top: -98px;
+  left: 260px;
   font-weight: 200;
   font-size: 37px;
   text-decoration: none;
@@ -63,14 +64,14 @@
   font-weight: 300;
   font-size: 35px;
   position: relative;
-  top: -185px;
+  top: -180px;
   left: 30px;
 }
 .weather-condition {
   font-weight: 100;
   font-size: 30px;
   position: relative;
-  top: -180px;
+  top: -175px;
   left: 30px;
 }
 small {
@@ -82,8 +83,13 @@ small {
 }
 #weather-description {
   position: relative;
-  top: -280px;
-  left: 315px;
+  top: -270px;
+  left: 425px;
   font-weight: 200;
   font-size: 20px;
+}
+.icon {
+  position: relative;
+  left: 425px;
+  top: -235px;
 }
