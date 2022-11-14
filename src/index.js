@@ -104,12 +104,3 @@ function weekdays() {
   let day = days[now.getDay()];
   return day;
 }
-let fahrenheight = document.querySelector(".fahrenheight");
-fahrenheight.addEventListener("click", showFahrenheight);
-function showFahrenheight(event) {
-  event.preventDefault();
-  let fahrenheightTemp = (celsiusTemp * 9) / 5 + 32;
-  let tempElement = document.querySelector(".temp");
-  tempElement.innerHTML = Math.round(fahrenheightTemp);
-}
-let celsiusTemp = null;
