@@ -33,6 +33,12 @@ function showTemperature(response) {
   let wind = document.querySelector(".wind");
   wind.innerHTML = Math.round(response.data.wind.speed);
 
+  let icon = document.querySelector(".icon");
+  icon.setAttribute(
+    "src",
+    `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
+  );
+
   celsiusTemp = response.data.main.temp;
 }
 let sanfran = document.querySelector("#SanFran");
