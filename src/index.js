@@ -88,7 +88,7 @@ function formatDate() {
 }
 date.innerHTML = formatDate(now);
 
-let day = document.querySelector("#day");
+let day = document.querySelector(".date");
 let newDay = new Date();
 day.innerHTML = weekdays(newDay);
 function weekdays() {
