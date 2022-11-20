@@ -136,3 +136,34 @@ function displayCelsiusTemp(event) {
 }
 
 let celsiusTemp = null;
+
+function displayForecast() {
+  let forecast = document.querySelector(".forecast");
+
+  let forecastHTML = `<div class="row">`;
+  let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"];
+  days.forEach(function (day) {
+    forecastHTML =
+      forecastHTML +
+      `
+              <div class="col-2">
+                <div class="forecast-day">${day}</div>
+                <img
+                  src="http://openweathermap.org/img/wn/50d@2x.png"
+                  alt=""
+                  width="42"
+                />
+                <div class="forecast-temp">
+                  <span class="high"> 18° </span>
+                  <span class="low"> 12° </span>
+                </div>
+              </div>
+            
+  `;
+  });
+
+  forecastHTML = forecastHTML + `</div>`;
+  forecast.innerHTML = forecastHTML;
+}
+
+displayForecast();

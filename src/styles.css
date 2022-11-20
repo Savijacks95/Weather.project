@@ -101,3 +101,11 @@ small {
   text-align: center;
   color: #000;
 }
+.forecast-day {
+  font-size: 25px;
+  opacity: 0.7;
+}
+.forecast-temp {
+  font-size: 20px;
+  opacity: 0.7;
+}
