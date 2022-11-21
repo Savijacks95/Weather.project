@@ -36,17 +36,8 @@
 }
 .fahrenheit {
   position: relative;
-  top: -43px;
-  left: 320px;
-  font-weight: 200;
-  font-size: 37px;
-  text-decoration: none;
-  color: black;
-}
-.celsius {
-  position: relative;
   top: -10px;
-  left: 260px;
+  left: 240px;
   font-weight: 200;
   font-size: 37px;
   text-decoration: none;
