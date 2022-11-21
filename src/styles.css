@@ -6,6 +6,7 @@
   font-weight: 300;
   border: 0.5px solid #c1c9ce;
   color: white;
+  transition: all 150ms ease-in-out;
 }
 .col-2 {
   position: relative;
@@ -27,7 +28,7 @@
   font-size: 100px;
   position: relative;
   top: 110px;
-  left: 75px;
+  left: 300px;
   font-weight: 200;
   color: white;
 }
@@ -36,13 +37,13 @@
   font-weight: 400;
   position: relative;
   top: 90px;
-  left: 45px;
+  left: 280px;
   color: #ffffff;
 }
 .fahrenheit {
   position: relative;
   top: 40px;
-  left: 240px;
+  left: 500px;
   font-weight: 200;
   font-size: 37px;
   text-decoration: none;
@@ -61,7 +62,7 @@
   font-size: 35px;
   position: relative;
   top: -100px;
-  left: 30px;
+  left: 280px;
   color: #ffffff;
 }
 .weather-condition {
@@ -69,7 +70,7 @@
   font-size: 30px;
   position: relative;
   top: -95px;
-  left: 30px;
+  left: 280px;
   color: #ffffff;
 }
 small {
@@ -83,7 +84,7 @@ small {
 #weather-description {
   position: relative;
   top: -180px;
-  left: 425px;
+  left: 750px;
   font-weight: 200;
   font-size: 20px;
   color: #ffffff;
@@ -91,8 +92,8 @@ small {
 }
 .icon {
   position: relative;
-  left: 425px;
-  top: -150px;
+  left: 735px;
+  top: -115px;
 }
 
 .forecast {
@@ -112,5 +113,7 @@ small {
 }
 
 body {
-  background-image: url("../images/background.jpg");
+  background-image: url("../images/weather.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
