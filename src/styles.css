@@ -5,6 +5,7 @@
   font-family: "Mitr", sans-serif;
   font-weight: 300;
   border: 0.5px solid #c1c9ce;
+  color: white;
 }
 .col-2 {
   position: relative;
@@ -14,34 +15,38 @@
   font-family: "Mitr", sans-serif;
   font-weight: 400;
   text-decoration: none;
+  color: #ffffff;
 }
 .city {
   position: relative;
   top: 20px;
   font-family: "Mitr", sans-serif;
+  color: #ffffff;
 }
 .temp {
   font-size: 100px;
   position: relative;
-  top: 60px;
+  top: 110px;
   left: 75px;
   font-weight: 200;
+  color: white;
 }
 .card-city {
   font-size: 38px;
   font-weight: 400;
   position: relative;
-  top: 30px;
+  top: 90px;
   left: 45px;
+  color: #ffffff;
 }
 .fahrenheit {
   position: relative;
-  top: -10px;
+  top: 40px;
   left: 240px;
   font-weight: 200;
   font-size: 37px;
   text-decoration: none;
-  color: black;
+  color: white;
 }
 .card-one {
   font-family: "Mitr", sans-serif;
@@ -57,6 +62,7 @@
   position: relative;
   top: -100px;
   left: 30px;
+  color: #ffffff;
 }
 .weather-condition {
   font-weight: 100;
@@ -64,6 +70,7 @@
   position: relative;
   top: -95px;
   left: 30px;
+  color: #ffffff;
 }
 small {
   display: block;
@@ -71,6 +78,7 @@ small {
   text-decoration: none;
   position: relative;
   bottom: -675px;
+  color: #000;
 }
 #weather-description {
   position: relative;
@@ -78,6 +86,8 @@ small {
   left: 425px;
   font-weight: 200;
   font-size: 20px;
+  color: #ffffff;
+  font-weight: 400;
 }
 .icon {
   position: relative;
@@ -99,4 +109,8 @@ small {
 .forecast-temp {
   font-size: 20px;
   opacity: 0.7;
+}
+
+body {
+  background-image: url("../images/background.jpg");
 }
