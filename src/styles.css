@@ -27,7 +27,7 @@
 .temp {
   font-size: 100px;
   position: relative;
-  top: 110px;
+  top: 120px;
   left: 300px;
   font-weight: 200;
   color: white;
@@ -42,8 +42,8 @@
 }
 .fahrenheit {
   position: relative;
-  top: 40px;
-  left: 500px;
+  top: 50px;
+  left: 470px;
   font-weight: 200;
   font-size: 37px;
   text-decoration: none;
